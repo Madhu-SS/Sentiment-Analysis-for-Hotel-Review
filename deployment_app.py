@@ -6,7 +6,7 @@ import string
 from nltk.tokenize import word_tokenize
 from nltk.stem import WordNetLemmatizer, PorterStemmer
 import re
-
+nltk.download('punkt')
 import nltk
 from sklearn.feature_extraction.text import CountVectorizer,TfidfTransformer,TfidfVectorizer
 
