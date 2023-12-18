@@ -1,13 +1,15 @@
 import streamlit as st
 import pandas as pd
+import nltk
 import joblib
 from nltk.corpus import stopwords
 import string
 from nltk.tokenize import word_tokenize
 from nltk.stem import WordNetLemmatizer, PorterStemmer
 import re
+nltk.download('stopwords')
 nltk.download('punkt')
-import nltk
+
 from sklearn.feature_extraction.text import CountVectorizer,TfidfTransformer,TfidfVectorizer
 
 html_temp = """<h1 style ="color:gold;text-align:center;">Sentiment Analysis for Hotel Review</h1>"""
