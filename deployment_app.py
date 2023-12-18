@@ -8,6 +8,7 @@ from nltk.tokenize import word_tokenize
 from nltk.stem import WordNetLemmatizer, PorterStemmer
 import re
 nltk.download('stopwords')
+nltk.download('wordnet')
 nltk.download('punkt')
 
 from sklearn.feature_extraction.text import CountVectorizer,TfidfTransformer,TfidfVectorizer
