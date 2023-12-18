@@ -1,0 +1,5 @@
+streamlit==0.90.0
+pandas
+joblib
+scikit-learn
+nltk
